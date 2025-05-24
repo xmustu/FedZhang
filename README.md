@@ -1,22 +1,16 @@
-# FedMD
-FedMD: Heterogenous Federated Learning via Model Distillation. 
-Preprint on https://arxiv.org/abs/1910.03581.
+1. "conda activate fedzhang python=3.8"
 
-## Run scripts on Google Colab
+2. "git clone github_link"
 
-1. open a google Colab
-
-2. Clone the project folder from Github
-```
-! git clone github_link
-```
 
 3. Then access the folder just created. 
 ```
 % cd project_folder/
 ```
 
-4. Run the python script in Colab. For instance 
+4. "pip install -r requirements.txt"
+5. 
 ``` 
 ! python FEMNIST_Balanced.py -conf conf/EMNIST_balance_conf.json
+！python FEMNIST_Imbalanced.py -conf conf/EMNIST_imbalance_conf.json
 ```
